@@ -27,7 +27,7 @@
 }
 
 .sidebar .second .top img{
-    width: 25px;
+    width: 30px;
 }
 .second .top{
     display: grid;
@@ -51,11 +51,63 @@
     justify-self: start;
 }
 .sidebar .second .bottom img{
-    width: 25px;
+    width: 30px;
 }
 
 .header{
     grid-column: 2/3;
+    background-color: white;
+    display: grid;
+    grid-template: 1fr 1fr/2fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.header .svg{
+    width: 25px;
+}
+.header .logo{
+    width: 60px;
+    border-radius: 50%;
+}
+.header .top-left{
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+}
+.header .top-left .search{
+    flex: 1;
+    border-radius: 8px;
+}
+.header .top-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    flex: 1;
+}
+.header .bottom-left{
+   display: flex;
+   align-items: center;
+   justify-content:left;
+   padding-left: 35px;
+   gap: 30px;
+}
+.header .big-logo{
+    width: 95px;
+    border-radius: 50%;
+}
+.header .bottom-right{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.header .bottom-right button{
+    background-color: rgb(67, 151, 240);
+    border-radius: 15px;
+    size: 20px;
+    height: 50px;
+    flex: 1;
+    font-size: 20px;
 }
 .page{
     grid-row: 2/3;
