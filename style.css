@@ -140,6 +140,7 @@
 .page .cards .card .option{
     display: flex;
     justify-content: flex-end;
+    gap: 8px;
 }
 .page .cards .card .option img{
     width: 23px;
